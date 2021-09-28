@@ -46,6 +46,10 @@ function App() {
   return (
     <div className="App"> 
 
+      <header className="header">
+        <h1>my Url shortener</h1>
+      </header>
+
       <div className="userInput">
         <input type="url" name="longUrl" id="longUrl" placeholder="Enter the url here..." required  
         onChange={(event) => {
@@ -75,6 +79,10 @@ function App() {
           </div>
         </CopyToClipboard>
       </div>
+
+      <footer className="footer">
+        <p>Created by Monojit Chakraborty | Copyright &copy; 2021</p>
+      </footer>
 
     </div>
   );
